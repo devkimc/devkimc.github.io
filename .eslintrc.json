@@ -33,6 +33,7 @@
         "no-use-before-define": "off",
         "array-callback-return": "warn",
         "consistent-return": "warn",
-        "@typescript-eslint/no-use-before-define": "off"
+        "@typescript-eslint/no-use-before-define": "off",
+        "react/jsx-props-no-spreading": "warn"
     }
 }
