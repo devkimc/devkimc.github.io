@@ -3,19 +3,19 @@ module.exports = {
   description: `코딩랜드`,
   language: `ko`,
   siteUrl: `https://vvs-kim.github.io`,
-  ogImage: `/og-image.png`, // Path to your in the 'static' folder
+  ogImage: `/river.webp`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `vvs-kim/vvs-kim.github.io`,
     },
   },
-  ga: '0', // Google Analytics Tracking ID
+  ga: 'G-992GRJ8SXF',
   author: {
     name: `vvs-kim`,
     bio: {
       role: `vvs-role`,
       description: [''],
-      thumbnail: 'sunset.png', // Path to the image in the 'asset' folder
+      thumbnail: 'river.webp', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/vvs-kim`,

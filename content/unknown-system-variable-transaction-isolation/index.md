@@ -1,9 +1,10 @@
 ---
-emoji: 🧢
+emoji: 💻
 title: Unknown system variable 'transaction_isolation'
-date: '2021-03-22 23:00:00'
-tags: blog gatsby theme 개츠비 테마
-categories: Database
+date: '2023-07-31 23:00:00'
+author: vvs-kim
+tags: database mariadb
+categories: 블로그 Database
 ---
 
 # 에러 상황
