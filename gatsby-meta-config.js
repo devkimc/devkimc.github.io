@@ -9,7 +9,7 @@ module.exports = {
       repo: `vvs-kim/vvs-kim.github.io`,
     },
   },
-  ga: 'G-992GRJ8SXF',
+  ga: 'G-N3P0YMMJED',
   author: {
     name: `vvs-kim`,
     bio: {

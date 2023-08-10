@@ -58,7 +58,7 @@ module.exports = {
         lang: `en`,
         display: `standalone`,
         start_url: `/`,
-        icon: `static/river.webp`,
+        icon: `static/w_circle.jpeg`,
       },
     },
     {

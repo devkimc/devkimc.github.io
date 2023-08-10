@@ -5,7 +5,7 @@ import './style.scss';
 
 function Bio({ author, language = 'ko' }) {
   if (!author) return null;
-  const { bio, social } = author;
+  // const { bio, social } = author;
   return (
     <div className="bio">
       {/* <div className="introduction korean">
