@@ -3,8 +3,8 @@ emoji: 💻
 title: Unknown system variable 'transaction_isolation'
 date: '2023-07-31 23:00:00'
 author: vvs-kim
-tags: database
-categories: 블로그 database
+tags: db
+categories: 블로그 db
 ---
 
 ## 에러 상황

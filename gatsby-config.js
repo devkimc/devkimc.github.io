@@ -30,19 +30,27 @@ module.exports = {
           },
           'branch-deploy': {
             policy: [{ userAgent: '*', disallow: ['/'] }],
-            sitemap: null,
-            host: null,
+            sitemap: `${metaConfig.siteUrl}/sitemap.xml`,
+            host: metaConfig.siteUrl,
           },
           'deploy-preview': {
             policy: [{ userAgent: '*', disallow: ['/'] }],
-            sitemap: null,
-            host: null,
+            sitemap: `${metaConfig.siteUrl}/sitemap.xml`,
+            host: metaConfig.siteUrl,
           },
         },
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: metaConfig.ga,
+        head: true,
+        anonymize: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-gtag`,
       options: {
         trackingId: metaConfig.ga,
         head: true,
