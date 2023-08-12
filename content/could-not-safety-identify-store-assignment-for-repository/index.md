@@ -7,7 +7,7 @@ tags: spring
 categories: 블로그 spring
 ---
 
-# 🚫 에러 상황
+## 🚫 에러 상황
 
 Redis 내의 Refresh token 값을 다루기 위해 CrudRepository 를 사용하고, RDBMS 내의 데이터를 다루기 위해 JpaRepository 를 사용했습니다.
 
@@ -41,7 +41,7 @@ Redis 내의 Refresh token 값을 다루기 위해 CrudRepository 를 사용하�
 
 <br />
 
-# 📜 에러 원인
+## 📜 에러 원인
 
 JpaRepository, CrudRepository 는 모두 Repository 인터페이스를 확장한 것입니다.
 
@@ -80,9 +80,9 @@ public interface RefreshTokenRepository extends CrudRepository<RefreshToken, Str
 
 <br />
 
-# 🔑 해결 방법
+## 🔑 해결 방법
 
-## 1. EnableRedisRepositories 추가
+### 1. EnableRedisRepositories 추가
 
 ```java
 package jparest.practice.common.config;
@@ -103,7 +103,7 @@ RedisRepository 를 활성화 시키고, 빈 스캐닝 범위를 지정할 수 �
 
 <br />
 
-## 2. EnableJpaRepositories 추가
+### 2. EnableJpaRepositories 추가
 
 ```java
 package jparest.practice.common.config;
@@ -138,7 +138,7 @@ EnableJpaRepositories 까지 적용했더니 모든 로그가 사라진 것을 �
 
 <br />
 
-# 참고 자료
+## 참고 자료
 
 https://stackoverflow.com/questions/47002094/spring-multiple-spring-data-modules-found-entering-strict-repository-configur
 
