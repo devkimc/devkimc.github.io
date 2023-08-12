@@ -56,6 +56,10 @@ function Seo({ description, title }) {
           property: `og:type`,
           content: `website`,
         },
+        {
+          name: 'naver-site-verification',
+          content: '2d8c996eaf2722fc03132cf823c5b907dd5f8d8b',
+        },
       ]}
     />
   );

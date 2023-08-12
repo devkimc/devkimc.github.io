@@ -30,13 +30,13 @@ module.exports = {
           },
           'branch-deploy': {
             policy: [{ userAgent: '*', disallow: ['/'] }],
-            sitemap: `${metaConfig.siteUrl}/sitemap.xml`,
-            host: metaConfig.siteUrl,
+            sitemap: null,
+            host: null,
           },
           'deploy-preview': {
             policy: [{ userAgent: '*', disallow: ['/'] }],
-            sitemap: `${metaConfig.siteUrl}/sitemap.xml`,
-            host: metaConfig.siteUrl,
+            sitemap: null,
+            host: null,
           },
         },
       },
