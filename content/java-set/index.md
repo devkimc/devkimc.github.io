@@ -1,7 +1,7 @@
 ---
 emoji: 🧬
 title: Java Set
-date: '2023-08-12 17:00:00'
+date: '2023-08-12 22:00:00'
 author: vvs-kim
 tags: java
 categories: 블로그 java
@@ -15,14 +15,16 @@ Set 컬렉션 클래스는 Set 인터페이스를 구현한 클래스입니다. 
 
 ## 2. Map 종류
 
+![](./java-set.png)
+
 ### 2.1 HashSet
 
 해시 알고리즘을 사용하여 검색 속도가 빠르고, 내부적으로 HashMap 인스턴스를 이용하여 요소를 저장합니다.
 
 HashSet은 요소를 삽입할 때 이미 존재하는 요소인지 파악하기 위해 내부적으로 다음과 같은 과정을 거칩니다.
 
-1. 해당 요소에서 hashCode() 메서드를 호출해 반환된 해시 값으로 검색할 범위를 결정한다.
-2. 해당 범위 내의 요소들을 equals() 메서드로 비교한다.
+1. 해당 요소에서 `hashCode()` 메서드를 호출해 반환된 해시 값으로 검색할 범위를 결정한다.
+2. 해당 범위 내의 요소들을 `equals()` 메서드로 비교한다.
 
 ```java
 		Set<Integer> set = new HashSet<Integer>();
@@ -191,9 +193,9 @@ intersectionData = [4, 8]
 differenceData = [2, 6, 10]
 ```
 
-addAll() 메서드를 사용하여 Set1에 존재하지 않는 요소만 unionData에 추가 했습니다.<br>
-retainAll() 메서드를 사용하여 Set1과 Set2의 교차하는 요소만 남기고 나머지는 제거했습니다.<br>
-removeAll() 메서드를 사용하여 Set1의 요소중 Set2와 교차하지 않는 요소만 남기고 나머지는 제거했습니다.<br>
+`addAll()` 메서드를 사용하여 Set1에 존재하지 않는 요소만 unionData에 추가 했습니다.<br>
+`retainAll()` 메서드를 사용하여 Set1과 Set2의 교차하는 요소만 남기고 나머지는 제거했습니다.<br>
+`removeAll()` 메서드를 사용하여 Set1의 요소중 Set2와 교차하지 않는 요소만 남기고 나머지는 제거했습니다.<br>
 
 <br>
 
