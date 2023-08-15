@@ -1,9 +1,9 @@
 module.exports = {
-  title: `vvs-kim blog`,
-  description: `코딩랜드`,
+  title: `김씨의 개발일지`,
+  description: `Mr. Kim's development journal`,
   language: `ko`,
   siteUrl: `https://vvs-kim.github.io`,
-  ogImage: `/river.webp`, // Path to your in the 'static' folder
+  ogImage: `/k_cursive.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
       repo: `vvs-kim/vvs-kim.github.io`,
@@ -15,7 +15,7 @@ module.exports = {
     bio: {
       role: `vvs-role`,
       description: [''],
-      thumbnail: 'river.webp', // Path to the image in the 'asset' folder
+      thumbnail: 'k_cursive.png', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/vvs-kim`,

@@ -67,7 +67,7 @@ module.exports = {
         lang: `en`,
         display: `standalone`,
         start_url: `/`,
-        icon: `static/w_circle.jpeg`,
+        icon: `static/k_cursive.png`,
       },
     },
     {
