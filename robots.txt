@@ -1,3 +1,4 @@
 User-agent: *
-Sitemap: https://vvs-kim.github.io/sitemap/sitemap-index.xml
+Allow: /
+Sitemap: https://vvs-kim.github.io/sitemap.xml
 Host: https://vvs-kim.github.io
