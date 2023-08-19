@@ -4,7 +4,6 @@ const metaConfig = require('./gatsby-meta-config');
 
 module.exports = {
   siteMetadata: metaConfig,
-  trailingSlash: 'never',
 
   plugins: [
     {
@@ -24,22 +23,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        resolveEnv: () => NETLIFY_ENV,
-        env: {
-          production: {
-            policy: [{ userAgent: '*' }],
-          },
-          'branch-deploy': {
-            policy: [{ userAgent: '*', disallow: ['/'] }],
-            sitemap: null,
-            host: null,
-          },
-          'deploy-preview': {
-            policy: [{ userAgent: '*', disallow: ['/'] }],
-            sitemap: null,
-            host: null,
-          },
-        },
+        host: 'https://vvs-kim.github.io',
+        sitemap: 'https://vvs-kim.github.io/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
       },
     },
     {
