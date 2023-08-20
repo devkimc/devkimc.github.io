@@ -58,7 +58,7 @@ function Seo({ description, title }) {
         },
         {
           name: 'naver-site-verification',
-          content: '2d8c996eaf2722fc03132cf823c5b907dd5f8d8b',
+          content: '870da609da7e2dd23685eef8b903d20b23bac841',
         },
       ]}
     />
