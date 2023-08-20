@@ -2,7 +2,7 @@
 emoji: 💻
 title: Spring rest docs 설정
 date: '2023-06-01 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: spring
 categories: 블로그 spring
 ---

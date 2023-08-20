@@ -2,7 +2,7 @@
 emoji: 💻
 title: Elastic Beanstalk + Docker + Java 설정
 date: '2023-06-19 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: server
 categories: 블로그 server
 ---

@@ -2,7 +2,7 @@
 emoji: 💻
 title: AWS EC2 Node.js 서버 연결 안될 때 ( 사이트에 연결할 수 없음 )
 date: '2022-08-04 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: server
 categories: 블로그 server
 ---

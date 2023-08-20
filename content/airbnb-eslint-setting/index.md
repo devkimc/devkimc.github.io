@@ -2,7 +2,7 @@
 emoji: 💻
 title: eslint(airbnb) + prettier + Next + Typescript + yarn 설정
 date: '2022-11-17 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: frontend
 categories: 블로그 frontend
 ---

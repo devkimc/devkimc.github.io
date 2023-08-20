@@ -2,7 +2,7 @@
 emoji: 📓
 title: SPA(Single Page Application) - [2] CSR/SSR
 date: '2022-08-04 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: web
 categories: 블로그 web
 ---

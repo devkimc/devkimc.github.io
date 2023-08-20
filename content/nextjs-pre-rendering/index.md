@@ -2,7 +2,7 @@
 emoji: 💻
 title: NextJS pre-rendering (Static Generation / Server-side Rendering)
 date: '2022-11-02 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: frontend
 categories: 블로그 frontend
 ---

@@ -2,7 +2,7 @@
 emoji: 💻
 title: Ionic React 시작하기
 date: '2022-10-26 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: frontend
 categories: 블로그 frontend
 ---

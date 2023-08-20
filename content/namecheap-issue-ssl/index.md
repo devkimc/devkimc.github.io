@@ -2,7 +2,7 @@
 emoji: 💻
 title: Namecheap SSL 인증서 재발급 후기 (Https 적용)
 date: '2022-10-05 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: web
 categories: 블로그 web
 ---

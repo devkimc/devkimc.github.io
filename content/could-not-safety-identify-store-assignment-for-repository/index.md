@@ -2,7 +2,7 @@
 emoji: 💻
 title: Could not safely identify store assignment for repository candidate interface
 date: '2023-06-18 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: spring
 categories: 블로그 spring
 ---

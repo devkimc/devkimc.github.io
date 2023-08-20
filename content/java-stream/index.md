@@ -2,7 +2,7 @@
 emoji: 🧬
 title: Java Stream
 date: '2023-08-15 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: java
 categories: 블로그 java
 ---
@@ -66,7 +66,9 @@ public class Student {
 				new Student("벤틀리", 8)
 		);
 
-		double avg = list.stream()
+		Stream<Student> studentStream = list.stream();
+
+		double avg = studentStream
 				.mapToInt(student -> student.getAge())
 				.average()
 				.getAsDouble();
@@ -103,9 +105,50 @@ Stream은 객체 요소를 처리하는 스트림이고 IntStrea, DoubleStream, 
 
 <br>
 
-## 5. 중간처리
+## 5. 중간 처리
 
-작성중
+### 5.1 필터링
+
+```java
+		ArrayList<String> list = new ArrayList<>();
+
+		list.add("오펜하이머");
+		list.add("바비");
+		list.add("오펜하이머");
+
+		List<String> distinctStudent = list.stream()
+				.distinct()
+				.toList();
+
+		System.out.println("distinctStudent = " + distinctStudent);
+
+		list.stream()
+				.filter(e -> e.equals("바비"))
+				.forEach(e -> System.out.println("filtered = " + e));
+```
+
+Output
+
+```java
+distinctStudent = [오펜하이머, 바비]
+filtered = 바비
+```
+
+### 5.2 매핑
+
+### 5.3 정렬
+
+### 5.4 루핑
+
+## 6. 최종 처리
+
+### 6.1 매칭
+
+### 6.2 집계
+
+### 6.3 수집
+
+### 6.4 그룹핑
 
 ## 📚 참고자료
 

@@ -2,7 +2,7 @@
 emoji: 💻
 title: 뮤텍스(Mutex)와 세마포어(Semaphore)
 date: '2023-06-17 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: java
 categories: 블로그 java
 ---

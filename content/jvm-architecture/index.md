@@ -2,7 +2,7 @@
 emoji: 🧬
 title: JVM의 내부 구조
 date: '2023-08-12 12:00:00'
-author: vvs-kim
+author: devkimc
 tags: java
 categories: 블로그 java
 ---

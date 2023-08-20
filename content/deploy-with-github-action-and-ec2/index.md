@@ -2,7 +2,7 @@
 emoji: 💻
 title: aws ec2에 github action 으로 프론트 자동 배포하기
 date: '2023-01-01 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: ci/cd
 categories: 블로그 ci/cd
 ---

@@ -2,7 +2,7 @@
 emoji: 📓
 title: SSL 인증(DNS, Nginx)
 date: '2022-12-15 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: web
 categories: 블로그 web
 ---

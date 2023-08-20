@@ -1,9 +1,9 @@
 {
-  "name": "vvs-kim.github.io",
+  "name": "devkimc.github.io",
   "private": false,
   "description": "kim's development journal",
   "version": "3.0.0",
-  "author": "vvs-kim <kws600000@gmail.com>",
+  "author": "devkimc <kws600000@gmail.com>",
   "dependencies": {
     "@mui/icons-material": "^5.1.0",
     "@mui/material": "^5.1.0",
@@ -58,9 +58,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vvs-kim/vvs-kim.github.io"
+    "url": "https://github.com/devkimc/devkimc.github.io"
   },
   "bugs": {
-    "url": "https://github.com/vvs-kim/vvs-kim.github.io"
+    "url": "https://github.com/devkimc/devkimc.github.io"
   }
 }

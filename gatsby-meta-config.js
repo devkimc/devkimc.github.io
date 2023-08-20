@@ -2,23 +2,23 @@ module.exports = {
   title: `김씨의 개발일지`,
   description: `Mr. Kim's development journal`,
   language: `ko`,
-  siteUrl: `https://vvs-kim.github.io`,
+  siteUrl: `https://devkimc.github.io`,
   ogImage: `/k_cursive.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: `vvs-kim/vvs-kim.github.io`,
+      repo: `devkimc/devkimc.github.io`,
     },
   },
   ga: 'G-N3P0YMMJED',
   author: {
-    name: `vvs-kim`,
+    name: `devkimc`,
     bio: {
       role: `vvs-role`,
       description: [''],
       thumbnail: 'k_cursive.png', // Path to the image in the 'asset' folder
     },
     social: {
-      github: `https://github.com/vvs-kim`,
+      github: `https://github.com/devkimc`,
       linkedIn: ``,
       email: `kws6000000@naver.com`,
     },

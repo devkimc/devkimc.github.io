@@ -2,4 +2,4 @@
 sed -i "" 's/<\/loc>/\/<\/loc>/g' ./public/sitemap-pages.xml
 
 # 홈페이지 경로 수정
-sed -i "" 's/vvs-kim.github.io\/\//vvs-kim.github.io/g' ./public/sitemap-pages.xml
+sed -i "" 's/devkimc.github.io\/\//devkimc.github.io/g' ./public/sitemap-pages.xml

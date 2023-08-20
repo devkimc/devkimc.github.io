@@ -2,7 +2,7 @@
 emoji: 💻
 title: CORS Error [ vue 에서 외부 API 요청 시 ]
 date: '2022-08-04 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: web
 categories: 블로그 web
 ---

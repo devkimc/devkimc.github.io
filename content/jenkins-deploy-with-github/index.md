@@ -2,7 +2,7 @@
 emoji: 💻
 title: Jenkins 자동 배포하기 (+github 연동)
 date: '2022-08-27 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: ci/cd
 categories: 블로그 ci/cd
 ---

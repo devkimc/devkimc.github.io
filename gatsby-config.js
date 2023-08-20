@@ -23,8 +23,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://vvs-kim.github.io',
-        sitemap: 'https://vvs-kim.github.io/sitemap.xml',
+        host: 'https://devkimc.github.io',
+        sitemap: 'https://devkimc.github.io/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },

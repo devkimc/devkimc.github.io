@@ -2,12 +2,12 @@
 emoji: 💻
 title: docker, nextjs 이미지 배포하기 - 2 (github action 자동 배포)
 date: '2023-02-25 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: ci/cd
 categories: 블로그 ci/cd docker
 ---
 
-[[docker] node, nextjs 이미지 배포하기 - 1](https://vvs-kim.github.io/nextjs-deploy-with-docker-1/)
+[[docker] node, nextjs 이미지 배포하기 - 1](https://devkimc.github.io/nextjs-deploy-with-docker-1/)
 이전 게시물과 이어지는 내용입니다.
 추가 설명이 필요한 부분은 이전 게시물을 참고 해주시면 됩니다.
 

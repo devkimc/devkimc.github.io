@@ -2,7 +2,7 @@
 emoji: 💻
 title: docker, nextjs 이미지 배포하기 - 1 (+쉘 스크립트)
 date: '2023-02-19 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: ci/cd
 categories: 블로그 ci/cd docker
 ---

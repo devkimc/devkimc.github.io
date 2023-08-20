@@ -2,7 +2,7 @@
 emoji: 💻
 title: Builder 어노테이션 사용시, List 추가에 대한 NullPointerException
 date: '2023-05-23 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: spring
 categories: 블로그 spring
 ---

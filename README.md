@@ -1,1 +1,1 @@
-vvs-kim blog
+devkimc blog

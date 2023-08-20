@@ -2,7 +2,7 @@
 emoji: 💻
 title: git hooks 를 husky 로 제어하기 (eslint, pre-commit)
 date: '2022-12-06 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: frontend
 categories: 블로그 frontend
 ---

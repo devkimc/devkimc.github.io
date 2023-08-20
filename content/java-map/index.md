@@ -2,7 +2,7 @@
 emoji: 🧬
 title: Java Map
 date: '2023-08-12 17:00:00'
-author: vvs-kim
+author: devkimc
 tags: java
 categories: 블로그 java
 ---

@@ -2,7 +2,7 @@
 emoji: 💻
 title: git ssh 접속하기
 date: '2022-12-03 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: server
 categories: 블로그 server
 ---
@@ -20,8 +20,8 @@ categories: 블로그 server
 
 ```
 $ git push origin main
-Username for 'https://github.com': vvs-kim
-Password for 'https://vvs-kim@github.com':
+Username for 'https://github.com': devkimc
+Password for 'https://devkimc@github.com':
 
 remote: Support for password authentication was removed on August 13, 2021.
 remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
@@ -72,7 +72,7 @@ Enter same passphrase again:
 Your identification has been saved in /Users/wskim/.ssh/id_rsa
 Your public key has been saved in /Users/wskim/.ssh/id_rsa.pub
 The key fingerprint is:
-SHA256:Kbzt8d0Sv57t9RG11/1SKpQXQjJeOAqIjMgw+tX+iqc vvs-kim
+SHA256:Kbzt8d0Sv57t9RG11/1SKpQXQjJeOAqIjMgw+tX+iqc devkimc
 The key's randomart image is:
 ```
 
@@ -125,7 +125,7 @@ Host github.com
 
 ```
 $ .ssh % ssh -T git@github.com
-Hi vvs-kim! You've successfully authenticated, but GitHub does not provide shell access.
+Hi devkimc! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
 ssh 접속을 위한 준비가 끝났습니다.

@@ -2,7 +2,7 @@
 emoji: 💻
 title: www.google.com을 검색 시 발생하는 일 - [ 브라우저 렌더링 ]
 date: '2022-08-04 23:00:00'
-author: vvs-kim
+author: devkimc
 tags: web
 categories: 블로그 web
 ---
