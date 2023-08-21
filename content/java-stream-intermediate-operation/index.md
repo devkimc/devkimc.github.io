@@ -1,5 +1,5 @@
 ---
-emoji: 🧬
+emoji: 🤹🏻‍♀️
 title: Java Stream 중간 처리
 date: '2023-08-20 12:00:00'
 author: devkimc
