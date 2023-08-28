@@ -140,10 +140,6 @@ Persistable 인터페이스를 사용하면 isNew 메서드를 오버라이딩 �
 
 [스프링 데이터 JPA - 새로운 Entity 판별](https://jaime-note.tistory.com/65)
 
-### 참고 자료
-
-https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.query-methods.query-property-expressions
-
 ```toc
 
 ```
